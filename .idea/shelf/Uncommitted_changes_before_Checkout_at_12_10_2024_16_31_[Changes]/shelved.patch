@@ -1,0 +1,36 @@
+Index: src/main/java/jom/com/softserve/s1/task4/Operation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package jom.com.softserve.s1.task4;\r\n\r\nclass Operation {\r\n\tpublic static int squareRectangle(int a, int b) {\r\n\t\t//your code\r\n\t\treturn 0;\r\n\t}\r\n\r\n\tpublic static int trySquareRectangle(int a, int b) {\r\n\t\t//your code\r\n\t\treturn 0;\r\n\t}\r\n}
+===================================================================
+diff --git a/src/main/java/jom/com/softserve/s1/task4/Operation.java b/src/main/java/jom/com/softserve/s1/task4/Operation.java
+--- a/src/main/java/jom/com/softserve/s1/task4/Operation.java	
++++ b/src/main/java/jom/com/softserve/s1/task4/Operation.java	
+@@ -1,13 +1,18 @@
+ package jom.com.softserve.s1.task4;
+ 
+ class Operation {
+-	public static int squareRectangle(int a, int b) {
+-		//your code
+-		return 0;
+-	}
++    public static int squareRectangle(int a, int b) {
++        if (a <= 0 || b <= 0) throw new IllegalArgumentException("both arguments should be more than zero");
++        return a * b;
++    }
+ 
+-	public static int trySquareRectangle(int a, int b) {
+-		//your code
+-		return 0;
+-	}
++    public static int trySquareRectangle(int a, int b) {
++        int square;
++        try {
++            square = squareRectangle(a, b);
++        } catch (IllegalArgumentException e) {
++            return - 1;
++        }
++        return square;
++    }
+ }
+\ No newline at end of file

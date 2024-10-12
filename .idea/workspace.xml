@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5345542-b970-44e0-804c-92ad6e92b1d8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="github-classroom[bot] &lt;66690702+github-classroom[bot]@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2nKyKq5kLDxbc7XMrjKEtk8E4W6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "task4",
+    "last_opened_file_path": "C:/OM-103-Andrii-Kosteniuk/jom-class-design-encapsulation-exceptions-Human1986",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.3",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.Task5Test">
+    <configuration name="Task4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task4" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task4.Task4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task5" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task5.Task5Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5Test.createsObjectConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task5" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task5.Task5Test" />
+      <option name="METHOD_NAME" value="createsObjectConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5Test.generatesConstructorColorException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task5" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task5.Task5Test" />
+      <option name="METHOD_NAME" value="generatesConstructorColorException(java.lang.Class,java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5Test.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task5" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task5.Task5Test" />
+      <option name="METHOD_NAME" value="toStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="jom-class-design-encapsulation-exceptions-Human1986" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="jom-class-design-encapsulation-exceptions-Human1986" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Task5Test" />
+        <item itemvalue="JUnit.Task5Test.toStringTest" />
+        <item itemvalue="JUnit.Task5Test.createsObjectConstructor" />
+        <item itemvalue="JUnit.Task5Test.generatesConstructorColorException" />
+        <item itemvalue="JUnit.Task4Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5345542-b970-44e0-804c-92ad6e92b1d8" name="Changes" comment="" />
+      <created>1728736002778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728736002778</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize task4" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jom/com/softserve/s1/task5/Task5Test.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
