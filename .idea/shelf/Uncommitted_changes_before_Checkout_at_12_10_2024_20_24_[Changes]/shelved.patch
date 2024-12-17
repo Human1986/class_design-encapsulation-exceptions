@@ -1,0 +1,56 @@
+Index: src/main/java/jom/com/softserve/s1/task5/Plant.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package jom.com.softserve.s1.task5;\r\n\r\n\r\n\r\n\r\npublic class Plant {\r\n    private Type type;\r\n    private Color color;\r\n    private String name;\r\n\r\n\r\n    public Plant(String type, String color, String name) throws TypeException, ColorException {\r\n        try {\r\n            this.type = Type.valueOf(type.toUpperCase());\r\n        } catch (IllegalArgumentException e) {\r\n            throw new TypeException(type);\r\n        }\r\n\r\n        try {\r\n            this.color = Color.valueOf(color.toUpperCase());\r\n        } catch (IllegalArgumentException e) {\r\n            throw new ColorException(color);\r\n        }\r\n\r\n        this.name = name;\r\n    }\r\n\r\n\r\n    public String getName() {\r\n        return name;\r\n    }\r\n\r\n    public Color getColor() {\r\n        return color;\r\n    }\r\n\r\n    public Type getType() {\r\n        return type;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"{\" +\r\n               \"type: \" + type + \", \" +\r\n               \"color: \" + color + \", \" +\r\n               \"name: \" + name +\r\n               \"}\";\r\n    }\r\n}\r\nenum Color {\r\n    WHITE, RED, BLUE\r\n}\r\n\r\nenum Type {\r\n    RARE, ORDINARY\r\n}\r\n\r\n\r\nclass ColorException extends Exception {\r\n    public ColorException(String color) {\r\n        super(\"Invalid value \" + color + \" for field color\");\r\n    }\r\n}\r\n\r\nclass TypeException extends Exception {\r\n    public TypeException(String type) {\r\n        super(\"Invalid value \" + type + \" for field type\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/jom/com/softserve/s1/task5/Plant.java b/src/main/java/jom/com/softserve/s1/task5/Plant.java
+--- a/src/main/java/jom/com/softserve/s1/task5/Plant.java	
++++ b/src/main/java/jom/com/softserve/s1/task5/Plant.java	
+@@ -1,7 +1,13 @@
+ package jom.com.softserve.s1.task5;
+ 
+ 
++enum Color {
++    WHITE, RED, BLUE
++}
+ 
++enum Type {
++    RARE, ORDINARY
++}
+ 
+ public class Plant {
+     private Type type;
+@@ -25,6 +31,17 @@
+         this.name = name;
+     }
+ 
++    public static Plant tryCreatePlant(String type, String color, String name) throws ColorException, TypeException {
++        Plant plant;
++        try {
++            plant = new Plant(type, color, name);
++        } catch (Exception e) {
++            e.getMessage();
++        } finally {
++            plant = new Plant(Type.ORDINARY.name(), Color.RED.name(), name);
++        }
++        return plant;
++    }
+ 
+     public String getName() {
+         return name;
+@@ -46,15 +63,8 @@
+                "name: " + name +
+                "}";
+     }
+-}
+-enum Color {
+-    WHITE, RED, BLUE
+-}
+ 
+-enum Type {
+-    RARE, ORDINARY
+ }
+-
+ 
+ class ColorException extends Exception {
+     public ColorException(String color) {

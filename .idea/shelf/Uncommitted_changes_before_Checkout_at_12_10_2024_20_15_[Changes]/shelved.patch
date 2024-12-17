@@ -1,0 +1,14 @@
+Index: src/main/java/jom/com/softserve/s1/task6/Plant.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package jom.com.softserve.s1.task6;\r\n\r\npublic class Plant {\r\n\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/jom/com/softserve/s1/task6/Plant.java b/src/main/java/jom/com/softserve/s1/task6/Plant.java
+--- a/src/main/java/jom/com/softserve/s1/task6/Plant.java	
++++ b/src/main/java/jom/com/softserve/s1/task6/Plant.java	
+@@ -2,4 +2,5 @@
+ 
+ public class Plant {
+ 
++
+ }
