@@ -1,7 +1,13 @@
 package jom.com.softserve.s1.task5;
 
 
+enum Color {
+    WHITE, RED, BLUE
+}
 
+enum Type {
+    RARE, ORDINARY
+}
 
 public class Plant {
     private Type type;
@@ -25,6 +31,17 @@ public class Plant {
         this.name = name;
     }
 
+    public static Plant tryCreatePlant(String type, String color, String name) throws ColorException, TypeException {
+        Plant plant;
+        try {
+            plant = new Plant(type, color, name);
+        } catch (Exception e) {
+            e.getMessage();
+        } finally {
+            plant = new Plant(Type.ORDINARY.name(), Color.RED.name(), name);
+        }
+        return plant;
+    }
 
     public String getName() {
         return name;
@@ -46,15 +63,8 @@ public class Plant {
                "name: " + name +
                "}";
     }
-}
-enum Color {
-    WHITE, RED, BLUE
-}
 
-enum Type {
-    RARE, ORDINARY
 }
-
 
 class ColorException extends Exception {
     public ColorException(String color) {
