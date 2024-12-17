@@ -31,6 +31,7 @@ class Task3Test {
 		}
 	}
 
+
 	@DisplayName("Check that Product class has a constructor")
 	@Test
 	void hasProductClassConstructorTest() {
@@ -42,6 +43,7 @@ class Task3Test {
 			fail("There is no class Product");
 		}
 	}
+
 
 	@DisplayName("Check that Product class has private constructor")
 	@Test
