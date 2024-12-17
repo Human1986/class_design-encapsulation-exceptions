@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee047e7c-ac54-4b62-8e9c-820c0b427b74" name="Changes" comment="Implemented logic">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.Task6Test.executor": "Run",
+    "git-widget-placeholder": "task6",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.Task7Test">
+    <configuration name="CheckingAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task7.CheckingAccount" />
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task6" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task6.Task6Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task6Test.hasTypeDeclaredMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task6" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task6.Task6Test" />
+      <option name="METHOD_NAME" value="hasTypeDeclaredMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task6Test.isCorrectPlantCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task6" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task6.Task6Test" />
+      <option name="METHOD_NAME" value="isCorrectPlantCreated(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jom.com.softserve.s1.task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jom.com.softserve.s1.task7" />
+      <option name="MAIN_CLASS_NAME" value="jom.com.softserve.s1.task7.Task7Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Task7Test" />
+        <item itemvalue="JUnit.Task6Test.isCorrectPlantCreated" />
+        <item itemvalue="JUnit.Task6Test.hasTypeDeclaredMethod" />
+        <item itemvalue="JUnit.Task6Test" />
+        <item itemvalue="Application.CheckingAccount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented logic" />
+  </component>
+</project>
